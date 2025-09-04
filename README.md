@@ -43,7 +43,7 @@ A minimal Docker Compose setup for WordPress development with MySQL database and
 ## WP-CLI Usage
 
 **SUGGEST YOU CREATE AN ALIAS IN YOUR ~/.zshrc or ~/.bashrc**   
-```alias dwp='docker-compose exec wordpress wp'```
+```alias dwp='docker-compose run --rm wpcli '```
 so after docker compose up -d and initial wordpress setup you can easily use: ```dwp``` to act as ```wp```
 
 
