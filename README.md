@@ -4,9 +4,11 @@ A minimal Docker Compose setup for WordPress development with MySQL database and
 
 ## Services
 
-- **MySQL 8.0.27** - Database server
+- **MySQL 8.0.43** - Database server
 - **WordPress (latest)** - WordPress application
 - **WP-CLI** - WordPress command-line interface
+
+## The command docker-compose == docker compose 
 
 ## Quick Start
 
@@ -32,7 +34,7 @@ A minimal Docker Compose setup for WordPress development with MySQL database and
 - **Root Password**: somewordpress
 
 ### Ports
-- WordPress: `80` (http://localhost)
+- WordPress: `8001` (http://localhost:8001)
 - MySQL: `3306` (accessible from host)
 
 ## File Structure
